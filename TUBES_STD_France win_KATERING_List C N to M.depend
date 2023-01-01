@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1672503107 source:d:\college\matkul\semester 3\struktur data\minggu 12\tubes\tubes_std_france win_katering_list c n to m\katering.cpp
+	"katering.h"
+
+1672493261 d:\college\matkul\semester 3\struktur data\minggu 12\tubes\tubes_std_france win_katering_list c n to m\katering.h
+	<iostream>
+	<stdio.h>
+
+1672503357 source:d:\college\matkul\semester 3\struktur data\minggu 12\tubes\tubes_std_france win_katering_list c n to m\main.cpp
+	"katering.h"
+
