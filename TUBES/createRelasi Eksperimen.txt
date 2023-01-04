@@ -1,0 +1,14 @@
+        pM = searchMenu(LM, menuname);
+        if (pM != nil) {
+            pR = menu(pH);
+            if (pR == nil) {
+                menuHari(pR) = pM;
+            } else {
+                adrRelasi p = menu(pH);
+                while (nextRelasi(nextRelasi(p)) != nil) {
+                    p = nextRelasi(p);
+                }
+                nextRelasi(p) = pR;
+                menuHari(pR) = pM;
+            }
+        }
